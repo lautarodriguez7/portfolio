@@ -11,7 +11,7 @@
 
     .image-me {
         position: absolute;
-        background-image: url(/src/assets/about/im.jpg);
+        /* background-image: url(/src/assets/about/im.jpg); */
         width: 100%;
         height: 100px;
         display: flex;
