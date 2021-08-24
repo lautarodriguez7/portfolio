@@ -13,10 +13,10 @@
   }
   
   .navbar.active {
-    background: #005cb3;
+    /* background: #1791f5; */
     transition: all 1s ease-in-out;
-    box-shadow: 2px 2px 4px #0d013a;
-    -moz-box-shadow: 2px 2px 4px #0d013a;
+    /* box-shadow: 2px 2px 4px #0d013a; */
+    /* -moz-box-shadow: 2px 2px 4px #0d013a; */
   }
   
   .navbar-container {
@@ -28,7 +28,7 @@
   }
 
   .navbar-container span {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: bold;
         color: #0B486B;
   }
@@ -74,7 +74,7 @@
 
   }
   
-  .nav-links-active:hover {
+  .nav-links-active:hover, .nav-links:hover {
     /* border-bottom: 3px solid #47c7e0;
     transition: all 0.2s ease-out; */
     background-color: #F56217;
@@ -83,12 +83,7 @@
     transform: rotate(50deg);
     transform-origin: center;
     /* -webkit-transition: all 0.3s ease-in-out 0s; */
-    transition: all 1.5s ease-in-out 0.5s;
-  }
-  
-  .nav-links:hover {
-    border-bottom: 3px solid #fff;
-    transition: all 0.2s ease-out;
+    transition: all 2s ease-in-out 0.1s;
   }
   
   .fa-bars {

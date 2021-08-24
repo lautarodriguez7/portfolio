@@ -1,0 +1,23 @@
+    .container-about {
+        background-color:#fff;
+        width: 100%;
+        height: 100vh;
+        z-index: -99;
+    }
+
+    .container-images {
+        display: flex;
+    }
+
+    .image-me {
+        position: absolute;
+        background-image: url(/src/assets/about/im.jpg);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        opacity: 0.9;
+        background-attachment: fixed;
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+    }
