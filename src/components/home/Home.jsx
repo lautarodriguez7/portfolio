@@ -5,9 +5,16 @@ const presentation = () => {
     return (
         <div className='presentation'>
             <div className='container-presentation'>
-                    <h2>Hi, i´m Developer Web</h2>
-                    <span>LAUTARO RODRIGUEZ</span>
-            </div>
+                <div className='title'>
+                    <div class="wrapper">
+                    <div class="static-txt"><h2>I'M</h2></div>
+                        <ul class="dynamic-txts">
+                            <li><h2>LAUTARO RODRIGUEZ</h2></li>
+                            <li><h2>A DEVELOPER WEB</h2></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>  
         </div>
     )
 }
