@@ -4,9 +4,15 @@ import './about.css'
 const about = () => {
     return (
         <div className="container-about">
-            <div className='container-images'>
-                <div className='image-me'></div>
-                <div className='image-me2'></div>
+            <div>
+                hola
+                <img src="./src/assets/about/im2.png" alt="" />
+            </div>
+            <div>
+                Hola
+            </div>
+            <div>
+                hola
             </div>
         </div>
     )

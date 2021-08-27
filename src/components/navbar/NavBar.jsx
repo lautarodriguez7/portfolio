@@ -9,7 +9,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 620) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -63,7 +63,7 @@ function Navbar() {
                 className={navbar ? "nav-links" : "nav-links-active"}
                 onClick={closeMobileMenu}
               >
-                CONTACT ME
+                CONTACT
               </a>
             </li>
           </ul>

@@ -10,7 +10,7 @@ const presentation = () => {
                     <div class="static-txt"><h2>I'M</h2></div>
                         <ul class="dynamic-txts">
                             <li><h2>LAUTARO RODRIGUEZ</h2></li>
-                            <li><h2>A DEVELOPER WEB</h2></li>
+                            <li><h2>A DEVELOPER WEB!</h2></li>
                         </ul>
                     </div>
                 </div>
