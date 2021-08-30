@@ -5,7 +5,6 @@
     flex-wrap: wrap;
     opacity: 0.8;
 }
-
 #title-h1 {
     position: absolute;
     left: 40%;
@@ -28,20 +27,20 @@
 .title-about h1, .title-skills h1 {
     margin: 0.5em 0 0.5em 0;
     font-size: 75px;
+    z-index: 9;
 }
 
-.container-images {
+/* .container-images {
     display: flex;
-}
+} */
 
 .me{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    flex-wrap: nowrap;
-    width: 80%;
-    border-radius: 1em;
-    /* background: #f0f8ff3d; */
+    justify-content: center;
+    position:relative;
     padding: 2em;
 }
 
@@ -53,9 +52,19 @@
     font-size: 18px;
 }
 
+.me-image {
+    display: flex;
+    z-index: 9;
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 31%;
+}
+
 .me-image img {
     border-radius: 3%;
-    margin: 1em;
+    width:340px;
 }
 
 .description-me {
@@ -74,14 +83,11 @@
     --animate-duration: 2s;
   }
 
-  .title-skills h1 {
-      margin: 1.5em 0 0 0;
-  }
   
   #img-skills {
     width: 550px;
     position: absolute;
     z-index: -9;
-    top: 65%;
-    left: 29%;
+    top: 50%;
+    margin-right: 2em;
   }
