@@ -16,19 +16,7 @@ const About = () => {
         }
     }
 
-    const [animationSkill, setAnimationSkills] = useState(false);
-
-    const changeAnimationSkill = () => {
-        if(window.scrollY >= 1000) {
-            setAnimationSkills(true);
-        } else if(window.scrollY <= 1200) {
-            setAnimationSkills(false);
-        }
-    }
-
     window.addEventListener("scroll", changeAnimation);
-    window.addEventListener("scroll", changeAnimationSkill);
-
     return (
         <>
         <div className="container-about">
@@ -48,14 +36,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            </div>
-            <div className='container-skills'>
-                <div className="title-skills">
-                    <h1 className={animationSkill ? "animate__animated animate__zoomInUp" : "animate__animated animate__zoomOutDown"}>SKILLS</h1>
-                </div>
-                <img src={Skills} id='img-skills' alt="" />
-            </div>
-            
+            </div>           
         </>
     )
 }
