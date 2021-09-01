@@ -21,11 +21,11 @@ body{
     background-size: cover;
 }
 
-.container-presentation {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.hello {
+  color: #34abc6 !important;
+  position: absolute;
+  font-size: 75px;
+  bottom: 80%;
 }
 
 .title {

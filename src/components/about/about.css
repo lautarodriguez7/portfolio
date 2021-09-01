@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     opacity: 0.8;
 }
+
 #title-h1 {
     position: absolute;
     left: 40%;
@@ -12,12 +13,11 @@
 }
 
 .title-about {
-    width: auto;
-    height: 245px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 2em;
+    width:100%;
 }
 
 .title-about img {
@@ -51,6 +51,7 @@
     width: 80%;
     font-weight: 500;
     font-size: 18px;
+    background: #55546914
 }
 
 .me-image {
@@ -76,19 +77,11 @@
 .description-me p {
     margin: 1em;
 }
-
-.animate__animated.animate__bounceInUp {
-    --animate-duration: 3s;
-  }
-  .animate__animated.animate__bounceOut {
-    --animate-duration: 2s;
-  }
-
-  
-  #img-skills {
+ 
+#img-skills {
     width: 550px;
     position: absolute;
     z-index: -9;
     top: 50%;
     margin-right: 2em;
-  }
+}

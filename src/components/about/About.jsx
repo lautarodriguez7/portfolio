@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './about.css'
 import Imagen from '../../assets/about/im2.png'
 import about from '../../assets/about/about.png'
-import Skills from '../../assets/about/code.png'
 import 'animate.css/animate.min.css'
 
 const About = () => {
@@ -21,7 +20,7 @@ const About = () => {
         <>
         <div className="container-about">
             <div className="title-about">
-                <h1 id='title-h1' className={animation ? "animate__animated animate__zoomInUp" : "animate__animated animate__zoomOutDown"}>ABOUT ME</h1>
+            <h1 id='title-h1' className={animation ? "animate__animated animate__rotateInUpLeft" : "animate__animated animate__hinge"}>ABOUT ME</h1>
             </div>            
             <div className='me'>
                 <div className='container-me-image'>
@@ -29,7 +28,7 @@ const About = () => {
                 </div>
                 <div className='me-image'>
                     <img src={Imagen} alt=''/>
-                    <div className={animation ? "animate__animated animate__bounceInUp" : "animate__animated animate__backOutDown"}>
+                    <div className={animation ? "animate__animated animate__rotateInUpLeft animate__slow" : "animate__animated animate__backOutDown"}>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur tenetur laborum voluptas excepturi sed explicabo deleniti deserunt autem fuga, impedit magnam at molestias, illo rem ullam soluta velit ex.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non recusandae deleniti distinctio quisquam illum perspiciatis adipisci tempora delectus illo obcaecati, ad minima id repudiandae reprehenderit repellendus saepe fugit rerum.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem quis ab fugiat repellendus odit aut ipsum aliquid quos in ullam, incidunt cumque nisi eum similique, veritatis dicta commodi ex.</p>

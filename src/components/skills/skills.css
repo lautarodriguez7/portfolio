@@ -31,9 +31,19 @@
 } 
 
 .img-skills {
-    width: 200px;
+    width: 150px;
     height: auto;
     padding: 2.5em
+}
+
+.skills {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.name-skills {
+    position: absolute;
 }
 
 .c-skills {
@@ -49,24 +59,17 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 }
 
 .img-skills {
     margin: 0 1em 1em 1em;
     transition:all .7s ease;
-    border-radius: 20%;
 }
 
 .img-skills:hover {
     padding: 1em;
     cursor: pointer;
     position: relative;
-    transition:all .7s ease;
-    animation-name: image;
-    animation-duration: 1.5s;
-    border-radius: 25%;
+    transition:all .5s ease;
 }
-@keyframes image {
-    from {background-color: #FC6D6D;}
-    to {background-color: white;}
-  }
