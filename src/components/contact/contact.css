@@ -1,0 +1,63 @@
+.container-contact {
+    background-image: url(/src/assets/contact/contact.png);
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    margin-top: 15em;
+    display: flex;
+    background-size: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+.title-contact {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    top: 0;
+}
+
+.map {
+    margin-left: 10em;
+    width: 25em;
+    height: 20em;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: 0;
+}
+
+.container-formContact, .contact-me {
+    background-color: #65647826;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.container-formContact, .form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact {
+    opacity: 0.9
+}
+
+.container-contact h1 {
+    font-size: 75px;        
+}
+
+.contact-me h3, .contact-me h2{
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.contact-me h2 {
+    border-bottom: 1px solid #000;
+    width: 35%;
+}
