@@ -3,7 +3,7 @@
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 #title-h1 {
@@ -31,9 +31,9 @@
     z-index: 9;
 }
 
-/* .container-images {
-    display: flex;
-} */
+#container-title {
+    background-color: #ffffff1a;
+}
 
 .me{
     display: flex;
@@ -46,12 +46,11 @@
 }
 
 .me p {
-    color: black;
+    color: #000;
     margin-left: 3em;
     width: 80%;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
-    background: #55546914
 }
 
 .me-image {
@@ -78,10 +77,10 @@
     margin: 1em;
 }
  
-#img-skills {
+/* #img-skills {
     width: 550px;
     position: absolute;
     z-index: -9;
     top: 50%;
     margin-right: 2em;
-}
+} */

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './skills.css'
-import skills from '../../assets/skills/code.png'
+import skills from '../../assets/skills/skills.png'
 import html from '../../assets/skills/html.png'
 import bootstrap from '../../assets/skills/bootstrap.png'
 import css from '../../assets/skills/css.png'
@@ -20,13 +20,14 @@ const Skills = () => {
     const [animationSkill, setAnimationSkills] = useState(false);
 
     const changeAnimationSkill = () => {
-        if(window.scrollY >= 1400) {
+        if(window.scrollY >= 1200) {
             setAnimationSkills(true);
-        } else if(window.scrollY <= 1200) {
+        } else if(window.scrollY <= 1150) {
             setAnimationSkills(false);
         }
     }
     window.addEventListener("scroll", changeAnimationSkill);
+    
     return (
         <div>
             <div className='container-skills'>
@@ -39,18 +40,17 @@ const Skills = () => {
                         <div className='skills'><img className='img-skills' src={html} alt="" /><h2 className='name-skills'>HTML</h2></div>
                         <div className='skills'><img className='img-skills' src={css} alt="" /><h2 className='name-skills'>CSS</h2></div>
                         <div className='skills'><img className='img-skills' src={js} alt="" /><h2 className='name-skills'>Javascript</h2></div>
-                        <div className='skills'><img className='img-skills' src={react} alt="" /><h2 className='name-skills'>ReactJS</h2></div>
                         <div className='skills'><img className='img-skills' src={firebase} alt="" /><h2 className='name-skills'>Firebase</h2></div>
+                        <div className='skills'><img className='img-skills' src={react} alt="" /><h2 className='name-skills'>ReactJS</h2></div>
                         <div className='skills'><img className='img-skills' src={git} alt="" /><h2 className='name-skills'>Git</h2></div>
                     </div>
                     <div className='group-skills'>
                         <div className='skills'><img className='img-skills' src={laravel} alt="" /><h2 className='name-skills'>Laravel</h2></div>
                         <div className='skills'><img className='img-skills' src={php} alt="" /><h2 className='name-skills'>PHP</h2></div>
-                        <div className='skills'><img className='img-skills' src={mysql} alt="" /><h2 className='name-skills'>MySql</h2></div>
                         <div className='skills'><img className='img-skills' src={bootstrap} alt="" /><h2 className='name-skills'>Bootstrap</h2></div>
                         <div className='skills'><img className='img-skills' src={jquery} alt="" /><h2 className='name-skills'>Jquery</h2></div>
+                        <div className='skills'><img className='img-skills' src={mysql} alt="" /><h2 className='name-skills'>MySql</h2></div>
                     </div>
-                   
                 </div>
             </div>
         </div>

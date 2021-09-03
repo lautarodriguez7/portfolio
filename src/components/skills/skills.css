@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5em;
+
 }
 
 .title-skills {
@@ -14,18 +16,18 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-bottom: 20em;
+    margin-bottom: 5em;
 }
 
 .title-skills h1{
     font-size: 75px;
     position: absolute;
-    margin-top: -0.3em;
+    margin-top: -1.3em;
     color: #FC6D6D;
 }
 
 #img-skills {
-  width: 750px;
+  width: 350px;
   z-index: -9;
   margin-right: 0.9em;
 } 
