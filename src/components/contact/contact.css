@@ -23,6 +23,16 @@
     top: 0;
 }
 
+.container-div-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0em 3em 7em 2em;
+    align-items: center;
+}
+
 .map {
     margin-left: 10em;
     width: 25em;
@@ -35,7 +45,7 @@
 .container-formContact, .contact-me {
     background-color: #65647826;
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     border-radius: 10px;
 }
 
@@ -46,6 +56,31 @@
 
 .form-contact {
     opacity: 0.9
+}
+
+.form-contact h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.form-contact input, textarea {
+    padding: 0.5em;
+    margin: 0.3em;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-send {
+    border-radius: 10px;
+    background: #e89598;
+    margin: 1rem;
+    width: 75%;
+    align-self: center;
+}
+
+.btn-send:hover {
+    background:#d2454a;
+    padding: 0.1em;
 }
 
 .container-contact h1 {
