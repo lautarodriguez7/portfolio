@@ -28,11 +28,10 @@ const About = () => {
                 </div>
                 <div className='me-image'>
                     <img src={Imagen} alt=''/>
-                    <div id='container-title'
-                    className={animation ? "animate__animated animate__rotateInUpLeft animate__slow" : "animate__animated animate__backOutDown"}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur tenetur laborum voluptas excepturi sed explicabo deleniti deserunt autem fuga, impedit magnam at molestias, illo rem ullam soluta velit ex.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non recusandae deleniti distinctio quisquam illum perspiciatis adipisci tempora delectus illo obcaecati, ad minima id repudiandae reprehenderit repellendus saepe fugit rerum.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem quis ab fugiat repellendus odit aut ipsum aliquid quos in ullam, incidunt cumque nisi eum similique, veritatis dicta commodi ex.</p>
+                    <div id='container-title'>
+                        <p className={animation ? "animate__animated animate__rotateInUpLeft animate__slow" : "animate__animated animate__backOutDown"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur tenetur laborum voluptas excepturi sed explicabo deleniti deserunt autem fuga, impedit magnam at molestias, illo rem ullam soluta velit ex.</p>
+                        <p className={animation ? "animate__animated animate__rotateInUpLeft animate__slow" : "animate__animated animate__backOutDown"}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non recusandae deleniti distinctio quisquam illum perspiciatis adipisci tempora delectus illo obcaecati, ad minima id repudiandae reprehenderit repellendus saepe fugit rerum.</p>
+                        <p className={animation ? "animate__animated animate__rotateInUpLeft animate__slow" : "animate__animated animate__backOutDown"}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem quis ab fugiat repellendus odit aut ipsum aliquid quos in ullam, incidunt cumque nisi eum similique, veritatis dicta commodi ex.</p>
                     </div>
                 </div>
             </div>

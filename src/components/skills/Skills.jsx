@@ -12,8 +12,7 @@ import php from '../../assets/skills/php.png'
 import jquery from '../../assets/skills/jquery.png'
 import firebase from '../../assets/skills/firebase.png'
 import mysql from '../../assets/skills/mysql.png'
-
-
+import wave from '../../assets/skills/wave.png'
 
 const Skills = () => {
 
@@ -35,6 +34,8 @@ const Skills = () => {
                 <h1 className={animationSkill ? "animate__animated animate__rotateInUpLeft animate__slow" : "animate__animated animate__hinge"}>SKILLS</h1>
                     <img src={skills} id='img-skills' alt="" />
                 </div>
+                <img src={wave} className='wave' alt="" />
+
                 <div className='c-skills'>
                     <div className='group-skills'>
                         <div className='skills'><img className='img-skills' src={html} alt="" /><h2 className='name-skills'>HTML</h2></div>
