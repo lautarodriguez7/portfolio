@@ -1,0 +1,41 @@
+.App {
+    background:#81809021;
+}
+
+.container-work {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center;
+    margin: 5em;
+}
+
+.work p {
+    width: 40%;
+}
+
+.work img {
+    border-radius: 0.5em;
+    transition: all .3s ease;
+}
+
+.work img:hover {
+    transition: all .5s ease;
+    opacity: 0.8;
+    border-radius: 5em;
+}
+
+.title-work h1 {
+    color: #656478;
+    font-size: 75px;
+    text-align: center;
+    margin: 1em;
+}

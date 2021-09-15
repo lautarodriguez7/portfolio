@@ -12,6 +12,10 @@
     color: #656478;
 }
 
+.animate__backInRight p{
+    animation-duration: 2s;
+}
+
 .title-about {
     display: flex;
     flex-direction: row;

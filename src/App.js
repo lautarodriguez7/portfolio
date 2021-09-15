@@ -3,8 +3,9 @@ import Navbar from './components/navbar/NavBar.jsx';
 import Home from './components/home/Home.jsx';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
-import Footer from './components/footer/Footer';
+import Work from './components/work/Work';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
       <Contact />
       <Footer />
     </div>

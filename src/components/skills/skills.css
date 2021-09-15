@@ -15,7 +15,6 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-bottom: 5em;
 }
 
 .title-skills h1{
@@ -52,6 +51,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    position: absolute;
+    top: 40%;
 } 
 
 .group-skills {
@@ -77,9 +78,6 @@
 
 
 .wave {
-    position: absolute;
     width: 100%;
-    height: 100%;
     z-index: -999;
-    top: 40%;
 }

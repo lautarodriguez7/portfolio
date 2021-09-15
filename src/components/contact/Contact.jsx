@@ -1,12 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './contact.css'
+import 'animate.css/animate.min.css'
 
 const Contact = () => {
+    
+    const [animationContact, setAnimationContact] = useState(false);
+
+    const changeAnimationContact = () => {
+        if(window.scrollY >= 2500) {
+            setAnimationContact(true);
+        } else if(window.scrollY <= 2850) {
+            setAnimationContact(false);
+        }
+    }
+
+    window.addEventListener("scroll", changeAnimationContact);
+
     return (
         <>
             <div className="container-contact">
                 <div className="title-contact">
-                    <h1>CONTACT ME</h1>
+                    <h1 className={animationContact ? "group-skills animate__animated animate__fadeInDown" : "group-skills animate__animated animate__fadeOutDown"}>CONTACT ME</h1>
                 </div>
                 <div className='container-div-contact'>
                     <div className="container-map">
