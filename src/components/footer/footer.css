@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     height: 200px;
-    margin-top: 5em;
     background: #656478d1;
     flex-direction: row;
     flex-wrap: wrap;

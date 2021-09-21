@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './work.css'
-import Imagen from '../../assets/about/im2.png'
+import totalmedic from '../../assets/work/totalmedic.jpg'
+import crud from '../../assets/work/crud.jpg'
 import 'animate.css/animate.min.css'
 
 const Work = () => {
@@ -46,13 +47,12 @@ const Work = () => {
                 </div>
                 <div className="work">
                     <div className={animationTitle ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
-                        <a href="https:www.totalmedic.com.ar"><img src={Imagen} alt="" /></a>
+                        <a href="https:www.totalmedic.com.ar"><img src={totalmedic} alt="" /></a>
                     </div>
                     
-                    <p className={animationTitle ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid molestiae atque itaque harum similique natus consequuntur, nihil obcaecati, suscipit quam quasi, est dolorem quibusdam asperiores doloribus non error laboriosam.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt provident voluptatem, error, expedita veniam laboriosam quibusdam blanditiis similique numquam repellat quas excepturi! Delectus, iure repellendus ipsam unde tempore aut inventore.
+                    <p className={animationTitle ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>
+                        Total Medic is a company dedicated to providing a comprehensive solution in medical supplies
                     </p>
-
                 </div>
                 
                 <div className="work">
@@ -61,14 +61,14 @@ const Work = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid molestiae atque itaque harum similique natus consequuntur, nihil obcaecati, suscipit quam quasi, est dolorem quibusdam asperiores doloribus non error laboriosam.
                     </p>
                     <div className={animationWork2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
-                        <a href="https:www.totalmedic.com.ar"><img src={Imagen} alt="" /></a>
+                        <a href="https://github.com/lautarodriguez7/CRUD-APP"><img src={crud} alt="" /></a>
                     </div>
 
                 </div>
 
                 <div className="work">
                     <div className={animationWork3 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
-                        <a href="https:www.totalmedic.com.ar"><img src={Imagen} alt="" /></a>
+                        <a href="https:www.totalmedic.com.ar"><img src={crud} alt="" /></a>
                     </div>
                     
                     <p className={animationWork3 ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>

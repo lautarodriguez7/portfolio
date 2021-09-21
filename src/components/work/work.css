@@ -13,9 +13,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;  
+    justify-content: center;  
     align-items: center;
-    margin: 5em;
+    margin: 1em;
 }
 
 .work p {
@@ -23,14 +23,18 @@
 }
 
 .work img {
+    width: 600px;
+    height: auto;
     border-radius: 0.5em;
     transition: all .3s ease;
+    margin: 2em;
+    padding: 1em;
 }
 
 .work img:hover {
     transition: all .5s ease;
     opacity: 0.8;
-    border-radius: 5em;
+    padding: 0;
 }
 
 .title-work h1 {

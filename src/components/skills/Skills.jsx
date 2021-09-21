@@ -39,7 +39,7 @@ const Skills = () => {
     window.addEventListener("scroll", changeAnimationSkill);
     
     return (
-        <div>
+        <>
             <div className='container-skills'>
                 <div className="title-skills">
                     <h1 className={animationSkill ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>SKILLS</h1>
@@ -65,7 +65,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
