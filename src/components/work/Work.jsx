@@ -63,7 +63,6 @@ const Work = () => {
                     <div className={animationWork2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
                         <a href="https://github.com/lautarodriguez7/CRUD-APP"><img src={crud} alt="" /></a>
                     </div>
-
                 </div>
 
                 <div className="work">
@@ -75,6 +74,16 @@ const Work = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid molestiae atque itaque harum similique natus consequuntur, nihil obcaecati, suscipit quam quasi, est dolorem quibusdam asperiores doloribus non error laboriosam.
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt provident voluptatem, error, expedita veniam laboriosam quibusdam blanditiis similique numquam repellat quas excepturi! Delectus, iure repellendus ipsam unde tempore aut inventore.
                     </p>
+                </div>
+
+                <div className="work">
+                <p className={animationWork3 ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ullam illum deleniti natus maxime hic quod rem sint iure ipsa ipsam numquam cum, consequatur nobis delectus nesciunt, exercitationem aut dolorem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid molestiae atque itaque harum similique natus consequuntur, nihil obcaecati, suscipit quam quasi, est dolorem quibusdam asperiores doloribus non error laboriosam.
+                    </p>
+                    <div className={animationWork3 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
+                        <a href="https://github.com/lautarodriguez7/CRUD-APP"><img src={crud} alt="" /></a>
+                    </div>
                 </div>
 
             </section>
