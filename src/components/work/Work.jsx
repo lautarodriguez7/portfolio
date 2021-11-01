@@ -73,13 +73,13 @@ const Work = () => {
                         Movie template migrated to react
                     </p>
                     <div className={animationWork2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
-                        <a href="https://github.com/lautarodriguez7/CRUD-APP"><img src={movie} alt="" /></a>
+                        <a href="https://github.com/lautarodriguez7/movies-reactJS"><img src={movie} alt="" /></a>
                     </div>
                 </div>
 
                 <div className="work">
                     <div className={animationWork3 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>
-                        <a href="https:www.totalmedic.com.ar"><img src={memes} alt="" /></a>
+                        <a href="https://github.com/lautarodriguez7/generate-memes"><img src={memes} alt="" /></a>
                     </div>
                     <p className={animationWork3 ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>
                         In this project we generate our own meme by choosing the favorite photo and its text
