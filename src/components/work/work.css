@@ -20,6 +20,8 @@
 
 .work p {
     width: 40%;
+    text-align: center;
+    font-size: 22px;
 }
 
 .work img {

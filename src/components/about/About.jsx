@@ -8,7 +8,7 @@ const About = () => {
     const [animation, setAnimation] = useState(false);
 
     const changeAnimation = () => {
-        if(window.scrollY >= 500) {
+        if(window.scrollY >= 350) {
             setAnimation(true);
         } else if(window.scrollY <= 550) {
             setAnimation(false);
@@ -17,7 +17,7 @@ const About = () => {
     const [animation2, setAnimation2] = useState(false);
 
     const changeAnimation2 = () => {
-        if(window.scrollY >= 700) {
+        if(window.scrollY >= 400) {
             setAnimation2(true);
         } else if(window.scrollY <= 1200) {
             setAnimation2(false);
@@ -39,9 +39,9 @@ const About = () => {
                     <div className='me-image'>
                         <img src={Imagen} alt=''/>
                         <div id='container-title'>
-                            <p className={animation2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur tenetur laborum voluptas excepturi sed explicabo deleniti deserunt autem fuga, impedit magnam at molestias, illo rem ullam soluta velit ex.</p>
-                            <p className={animation2 ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non recusandae deleniti distinctio quisquam illum perspiciatis adipisci tempora delectus illo obcaecati, ad minima id repudiandae reprehenderit repellendus saepe fugit rerum.</p>
-                            <p className={animation2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem quis ab fugiat repellendus odit aut ipsum aliquid quos in ullam, incidunt cumque nisi eum similique, veritatis dicta commodi ex.</p>
+                        <p className={animation2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>Hello, my name is Lautaro Rodriguez and I am a Web Developer!</p>
+                            <p className={animation2 ? "animate__animated animate__fadeInDown" : "animate__animated animate__fadeOutDown"}>Front end development lover, in which I try to improve my skills every day. I am an active, sociable and introverted person.</p>
+                            <p className={animation2 ? "animate__animated animate__fadeInUp" : "animate__animated animate__fadeOutDown"}>I like soccer and play it daily, it is my passion in addition to programming. If there is a phrase that identifies me, it is: "Trying to be my best version every day of my life"</p>
                         </div>
                     </div>
                 </div>
