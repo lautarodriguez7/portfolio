@@ -20,7 +20,7 @@ const presentation = () => {
                                 typeSpeed={80}
                                 deleteSpeed={50}
                                 delaySpeed={1500}
-                                words={['LAUTARO RODRIGUEZ', 'A DEVELOPER WEB']}
+                                words={['LAUTARO RODRIGUEZ', 'A WEB DEVELOPER!']}
                             />
                         </h2>
                     </div>
